@@ -11,5 +11,18 @@
 
   <body>
     <%= yield %>
+
+
+    <%= @question %>
+    <p>
+    <%= question[:question] %>
+    </p>
+    <p><em>You</em></p>
+
+    <%= @answer %>
+    <p>
+    <%= answer[:answer] %>
+    </p>
+    <p><em>Your Coach</em></p>
   </body>
 </html>
